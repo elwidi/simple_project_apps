@@ -1,0 +1,17 @@
+CRITICAL - 2023-01-21 07:24:59 --> Undefined variable: data
+in APPPATH/Controllers/Project.php on line 14.
+ 1 APPPATH/Controllers/Project.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH/Controllers/Project.php', 14, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectCreate()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-21 07:25:44 --> syntax error, unexpected '[', expecting '('
+in APPPATH/Controllers/Project.php on line 14.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Project.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Project')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Project')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Project')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Project', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,155 @@
+CRITICAL - 2022-12-02 06:01:18 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospect_list()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:01:35 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospect_list()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:02:08 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:02:09 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:02:18 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:00 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:01 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:01 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:01 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:01 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:04 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:10 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:11 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:11 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:03:11 --> Invalid file: customer_list.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('customer_list.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('customer_list', [], true)
+ 3 APPPATH/Controllers/Home.php(17): view('customer_list')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:14:27 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH/Views/layout/main.php on line 15.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('prospect/customer_list', [], true)
+ 4 APPPATH/Controllers/Home.php(19): view('prospect/customer_list', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:33:45 --> syntax error, unexpected '?>'
+in APPPATH/Views/layout/main.php on line 15.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('prospect/customer_list', [], true)
+ 4 APPPATH/Controllers/Home.php(19): view('prospect/customer_list', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->prospectList()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

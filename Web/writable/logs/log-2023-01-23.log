@@ -1,0 +1,217 @@
+CRITICAL - 2023-01-23 02:06:21 --> Undefined variable: role
+in APPPATH/Views/project/project_detail.php on line 77.
+ 1 APPPATH/Views/project/project_detail.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: role', 'APPPATH/Views/project/project_detail.php', 77, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/project/project_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('project/project_detail', [], true)
+ 5 APPPATH/Controllers/Project.php(25): view('project/project_detail', [])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectDetail()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:24:01 --> Undefined property: App\Controllers\Project::$input
+in APPPATH/Controllers/Project.php on line 29.
+ 1 APPPATH/Controllers/Project.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Project::$input', 'APPPATH/Controllers/Project.php', 29, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:24:12 --> Call to undefined method App\Controllers\Project::post()
+in APPPATH/Controllers/Project.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:26:01 --> Too few arguments to function App\Controllers\Project::projectStore(), 0 passed in /var/www/html/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Project.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:39:45 --> Too few arguments to function App\Controllers\Project::projectStore(), 0 passed in /var/www/html/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Project.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:39:52 --> Too few arguments to function App\Controllers\Project::projectStore(), 0 passed in /var/www/html/system/CodeIgniter.php on line 927 and exactly 2 expected
+in APPPATH/Controllers/Project.php on line 30.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:40:27 --> Undefined variable: request
+in APPPATH/Controllers/Project.php on line 31.
+ 1 APPPATH/Controllers/Project.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH/Controllers/Project.php', 31, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:51:50 --> syntax error, unexpected '__construct' (T_STRING), expecting variable (T_VARIABLE)
+in APPPATH/Controllers/Project.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Project.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Project')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Project')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Project')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Project', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:52:18 --> Call to undefined function App\Controllers\ProjectModel()
+in APPPATH/Controllers/Project.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Project->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:52:29 --> Call to undefined function App\Controllers\CodeIgnter\Model\ProjectModel()
+in APPPATH/Controllers/Project.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Project->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:52:48 --> Call to undefined function App\Models\UserModel()
+in APPPATH/Controllers/Project.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Project->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:52:58 --> Call to undefined function App\Models\ProjectModel()
+in APPPATH/Controllers/Project.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Project->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:53:06 --> Call to undefined function App\Models\ProjectModel()
+in APPPATH/Controllers/Project.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Project->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:53:18 --> Call to undefined function App\Models\ProjectModel()
+in APPPATH/Controllers/Project.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Project->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:54:57 --> Undefined property: App\Controllers\Project::$projectModel
+in APPPATH/Controllers/Project.php on line 43.
+ 1 APPPATH/Controllers/Project.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Project::$projectModel', 'APPPATH/Controllers/Project.php', 43, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:55:26 --> Undefined property: App\Controllers\Project::$projectModel
+in APPPATH/Controllers/Project.php on line 43.
+ 1 APPPATH/Controllers/Project.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Project::$projectModel', 'APPPATH/Controllers/Project.php', 43, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:55:26 --> Undefined property: App\Controllers\Project::$projectModel
+in APPPATH/Controllers/Project.php on line 43.
+ 1 APPPATH/Controllers/Project.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Project::$projectModel', 'APPPATH/Controllers/Project.php', 43, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 04:56:55 --> Too few arguments to function CodeIgniter\BaseModel::save(), 0 passed in /var/www/html/app/Controllers/Project.php on line 43 and exactly 1 expected
+in SYSTEMPATH/BaseModel.php on line 650.
+ 1 APPPATH/Controllers/Project.php(43): CodeIgniter\BaseModel->save()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 05:00:21 --> Undefined variable: routes
+in APPPATH/Controllers/Project.php on line 41.
+ 1 APPPATH/Controllers/Project.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: routes', 'APPPATH/Controllers/Project.php', 41, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectStore()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 07:40:44 --> syntax error, unexpected ')'
+in APPPATH/Controllers/Project.php on line 44.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Project.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Project')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Project')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Project')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Project', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 07:41:53 --> Undefined variable: project
+in APPPATH/Controllers/Project.php on line 31.
+ 1 APPPATH/Controllers/Project.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: project', 'APPPATH/Controllers/Project.php', 31, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectDetail('1')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 07:42:54 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Views/project/project_detail.php on line 22.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('project/project_detail', [], true)
+ 3 APPPATH/Controllers/Project.php(33): view('project/project_detail', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectDetail('1')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 07:43:02 --> Trying to get property 'project_name' of non-object
+in APPPATH/Views/project/project_detail.php on line 22.
+ 1 APPPATH/Views/project/project_detail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'project_name\' of non-object', 'APPPATH/Views/project/project_detail.php', 22, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/project/project_detail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('project/project_detail', [], true)
+ 5 APPPATH/Controllers/Project.php(33): view('project/project_detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectDetail('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 07:54:07 --> Use of undefined constant base_url - assumed 'base_url' (this will throw an Error in a future version of PHP)
+in APPPATH/Views/layout/main.php on line 22.
+ 1 APPPATH/Views/layout/main.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant base_url - assumed \'base_url\' (this will throw an Error in a future version of PHP)', 'APPPATH/Views/layout/main.php', 22, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layout/main.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('layout/main', [], true)
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('project/project_list', [], true)
+ 6 APPPATH/Controllers/Project.php(17): view('project/project_list', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectList()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 08:08:03 --> Undefined variable: projectId
+in APPPATH/Controllers/Project.php on line 25.
+ 1 APPPATH/Controllers/Project.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: projectId', 'APPPATH/Controllers/Project.php', 25, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectUpdate()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 08:09:05 --> syntax error, unexpected '?>'
+in APPPATH/Views/project/project_update.php on line 22.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('project/project_update', [], true)
+ 3 APPPATH/Controllers/Project.php(26): view('project/project_update', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectUpdate('1')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 08:10:15 --> Undefined index: start-date
+in APPPATH/Views/project/project_update.php on line 30.
+ 1 APPPATH/Views/project/project_update.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: start-date', 'APPPATH/Views/project/project_update.php', 30, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/project/project_update.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('project/project_update', [], true)
+ 5 APPPATH/Controllers/Project.php(26): view('project/project_update', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectUpdate('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-23 08:14:52 --> Trying to get property 'id' of non-object
+in APPPATH/Views/project/project_update.php on line 23.
+ 1 APPPATH/Views/project/project_update.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id\' of non-object', 'APPPATH/Views/project/project_update.php', 23, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/project/project_update.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('project/project_update', [], true)
+ 5 APPPATH/Controllers/Project.php(26): view('project/project_update', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Project->projectUpdate('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

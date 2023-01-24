@@ -1,0 +1,109 @@
+CRITICAL - 2023-01-09 04:28:49 --> Undefined property: App\Controllers\Hrb::$apps
+in APPPATH/Controllers/Hrb.php on line 8.
+ 1 APPPATH/Controllers/Hrb.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Hrb::$apps', 'APPPATH/Controllers/Hrb.php', 8, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:30:37 --> Undefined property: App\Controllers\Hrb::$apps
+in APPPATH/Controllers/Hrb.php on line 9.
+ 1 APPPATH/Controllers/Hrb.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Hrb::$apps', 'APPPATH/Controllers/Hrb.php', 9, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:31:38 --> Call to undefined function App\Libraries\get_instance()
+in APPPATH/Libraries/Apps.php on line 19.
+ 1 APPPATH/Controllers/Hrb.php(9): App\Libraries\Apps->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:35:51 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 42.
+ 1 APPPATH/Libraries/Apps.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 42, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:36:41 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 44.
+ 1 APPPATH/Libraries/Apps.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 44, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:36:42 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 44.
+ 1 APPPATH/Libraries/Apps.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 44, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:36:42 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 44.
+ 1 APPPATH/Libraries/Apps.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 44, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:36:43 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 44.
+ 1 APPPATH/Libraries/Apps.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 44, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:36:43 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 44.
+ 1 APPPATH/Libraries/Apps.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 44, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:36:43 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 44.
+ 1 APPPATH/Libraries/Apps.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 44, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:36:43 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 44.
+ 1 APPPATH/Libraries/Apps.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 44, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:36:44 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 44.
+ 1 APPPATH/Libraries/Apps.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 44, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:36:44 --> Undefined property: App\Libraries\Apps::$userId
+in APPPATH/Libraries/Apps.php on line 44.
+ 1 APPPATH/Libraries/Apps.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\Apps::$userId', 'APPPATH/Libraries/Apps.php', 44, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 04:37:21 --> Undefined variable: userId
+in APPPATH/Libraries/Apps.php on line 59.
+ 1 APPPATH/Libraries/Apps.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userId', 'APPPATH/Libraries/Apps.php', 59, [...])
+ 2 APPPATH/Controllers/Hrb.php(10): App\Libraries\Apps->info()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Hrb->hrbList()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hrb))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

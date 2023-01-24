@@ -1,0 +1,41 @@
+version: '3.7'
+services:
+  promanphp:
+    image: presalesphp
+    volumes:
+      - ./Web:/var/www/html
+    ports:
+      - "4411:80"
+    networks:
+      - proman-network
+  promandb:
+    image: mysql:5.7.33
+    container_name: promandb
+    restart: unless-stopped
+    tty: true
+    environment: 
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'password'
+    volumes: 
+        - ./mysql/data:/var/lib/mysql
+    networks:
+        - proman-network
+  promandbadmin:
+    image: phpmyadmin
+    container_name: promandbadmin
+    depends_on:
+      - promandb
+    restart: always
+    ports:
+      - 4500:80
+    environment:
+      - PMA_ARBITRARY=1
+    networks: 
+        - proman-network
+    volumes:
+      - ./phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
+networks:
+    proman-network:
+      driver: bridge
