@@ -36,6 +36,7 @@ class Project extends BaseController
 
         $data = [
             'project_name' => $this->request->getPost('project_name'),
+            'description' => $this->request->getPost('description'),
             'start_date' => date('Y-m-d', strtotime($this->request->getPost('start_date'))),
             'end_date' => date('Y-m-d', strtotime($this->request->getPost('end_date')))
         ];
