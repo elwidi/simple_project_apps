@@ -47,8 +47,8 @@ $routes->post('/project/delete', 'Project::projectDelete');
 
 #Detail Project
 $routes->get('/project/team/(:num)', 'ProjectTeam::projectTeamList/$1');
-
-
+$routes->get('/project/team/create/(:num)', 'ProjectTeam::projectTeamCreate/$1');
+$routes->post('/project/team/store', 'ProjectTeam::projectTeamStore');
 
 #Datatables
 $routes->post('/dt/project_list', 'Datatable::dt_project');
