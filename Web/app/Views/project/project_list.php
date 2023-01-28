@@ -12,7 +12,7 @@
 
 <div class="row">
   <div class="col-lg-12">
-              <div class="card mb-4">
+    <div class="card mb-4">
       <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
         <h6 class="m-0 font-weight-bold text-primary">List</h6>
       </div>
@@ -22,6 +22,7 @@
             <tr>
               <th>ID</th>
               <th>Project Name</th>
+              <th>Description</th>
               <th>Start Date</th>
               <th>End Date</th>
               <th>Action</th>
@@ -70,14 +71,20 @@
                   orderable: false,
                   targets: 1
               },
-              
+              {
+                  render: function (data, type, row) {
+                      return " <p>"+row.description+"</p>";
+                  },
+                  orderable: false,
+                  targets: 2
+              },
               {
                   render: function (data, type, row) {
                       /*return " <a class = 'detail-approval' href = '#' style = 'color:#000'>"+row["document_no"]+" </a>";*/
                       return " <p>"+row.start_date+"</p>";
                   },
                   orderable: true,
-                  targets: 2
+                  targets: 3
               },
               {
                   render: function (data, type, row) {
@@ -85,7 +92,7 @@
                     return " <p>"+row.end_date+"</p>";
                   },
                   orderable: true,
-                  targets: 3
+                  targets: 4
               },
               {
                   render: function (data, type, row) {
@@ -93,7 +100,7 @@
                       // return " <p> </p>";
                   },
                   orderable: true,
-                  targets: 4
+                  targets: 5
               }   
                  
           ],
@@ -105,7 +112,7 @@
 
       var table_callback = function(){
         $('.delete-project').click(function(){
-          
+          // $('.')
         })
 
       }
