@@ -44,8 +44,8 @@ class Datatable extends BaseController
 
             $data = $this->db->query("SELECT pt.*, pe.name from project_team pt inner join people pe on pt.person_id = pe.id  WHERE name like '%".$search_value."%' OR role like '%".$search_value."%' limit $start, $length")->getResult();
         }else{
-            $total_count = $this->db->query("SELECT * from project_team")->getResult();
-            $data = $this->db->query("SELECT * from project_team limit $start, $length")->getResult();
+            $total_count = $this->db->query("SELECT pt.*, pe.name from project_team pt inner join people pe on pt.person_id = pe.id ")->getResult();
+            $data = $this->db->query("SELECT pt.*, pe.name from project_team pt inner join people pe on pt.person_id = pe.id limit $start, $length")->getResult();
         }
         $json_data = array(
             "draw" => intval($params['draw']),
