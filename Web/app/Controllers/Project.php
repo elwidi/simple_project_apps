@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use CodeIgniter\HTTP\RequestInterface;
-use App\Model\ProjectModel;
 
 class Project extends BaseController
 {
