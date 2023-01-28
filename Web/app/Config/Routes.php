@@ -37,7 +37,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::pages');
 
-#Menu Prospect
+#Menu Project
 $routes->get('/project', 'Project::projectList');
 $routes->get('/project/create', 'Project::projectCreate');
 $routes->get('/project/update/(:num)', 'Project::projectUpdate/$1');
@@ -45,9 +45,14 @@ $routes->get('/project/detail/(:num)', 'Project::projectDetail/$1');
 $routes->post('/project/store', 'Project::projectStore');
 $routes->post('/project/delete', 'Project::projectDelete');
 
+#Detail Project
+$routes->get('/project/team/(:num)', 'ProjectTeam::projectTeamList/$1');
+
+
 
 #Datatables
 $routes->post('/dt/project_list', 'Datatable::dt_project');
+$routes->post('/dt/project_team', 'Datatable::dt_project_team');
 
 /*
  * --------------------------------------------------------------------
