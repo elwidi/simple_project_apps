@@ -44,7 +44,7 @@
                         <label for="simpleDataInput">Description</label>
                         <textarea class="form-control mb-3" name = "description"></textarea>
                     </div>
-                    <button type="submit" name = "description" class="btn btn-primary" style = "float:right;">Submit</button>
+                    <button type="submit" class="btn btn-primary" style = "float:right;">Submit</button>
                 </form>
             </div>
         </div>
