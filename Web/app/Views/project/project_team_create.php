@@ -32,12 +32,9 @@
                         <label for="simpleDataInput">Role</label>
                         <select class="form-control mb-3" type="text" name = "role">
                             <option value = ""></option>
-                            <option value = "Project Manager">Project Manager</option>
-                            <option value = "Functional Developer">Functional Developer</option>
-                            <option value = "QA Tester">QA Tester</option>
-                            <option value = "Back-end Developer">Back-end Developer</option>
-                            <option value = "Front-End Developer">Front-End Developer</option>
-                            <option value = "Build Release Engineer">Build Release Engineer</option>
+                            <?php foreach($roles as $i => $r){ ?>
+                                <option value = "<?php echo $r['id']?>"><?php echo $r['name_role']?></option>
+                            <?php } ?>
                         </select>
                     </div>
                     <div class="form-group">
