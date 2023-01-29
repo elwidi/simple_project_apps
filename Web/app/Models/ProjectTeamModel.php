@@ -11,7 +11,7 @@ class ProjectTeamModel extends Model{
         'project_id',
         'person_id',
         'project_join_date',
-        'role',
+        'role_id',
         'created_date',
         'created_by',
         'updated_date',

@@ -87,7 +87,7 @@
               },
               {
                   render: function (data, type, row) {
-                    return " <a class = 'btn btn-sm btn-primary' href = '"+JS_BASE_URL+"/project/detail/"+row.id+"'><i class='fas fa-fw fa-eye'></i> </a>&nbsp;<a class = 'btn btn-sm btn-primary' href = '"+JS_BASE_URL+"/project/update/"+row.id+"'><i class='fas fa-fw fa-pen'></i> </a>&nbsp;<a class = 'btn btn-sm btn-danger delete-project' href = '#'><i class='fas fa-fw fa-trash'></i> </a> ";
+                    return " <a class = 'btn btn-sm btn-primary' href = '"+JS_BASE_URL+"/project/detail/"+row.id+"'><i class='fas fa-fw fa-eye'></i> </a>&nbsp;<a class = 'btn btn-sm btn-primary' href = '"+JS_BASE_URL+"/project/team/update/"+row.id+"'><i class='fas fa-fw fa-pen'></i> </a>&nbsp;<a class = 'btn btn-sm btn-danger delete-project' href = '#'><i class='fas fa-fw fa-trash'></i> </a> ";
                       // return " <p> </p>";
                   },
                   orderable: true,
